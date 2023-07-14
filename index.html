@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Page</title>
+    <style>
+        /* CSS styles go here */
+        /* Customize the styles to match your desired design */
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+            padding: 20px;
+            background-image:url(https://th.bing.com/th/id/R.a90f420ad8c71c3aacf28f87de3f1708?rik=A5WC8v2va1qFGg&riu=http%3a%2f%2f4.bp.blogspot.com%2f-n-jZjyEzncE%2fUq8IxN6-giI%2fAAAAAAAADWk%2fOL-YhSPEG_4%2fs1600%2fPizza%2bFood%2bHd%2bWallpaper.jpg&ehk=P%2f8NwSvvwjLvNExGqNkmVRip5lATlUieTUwxOT6m2D0%3d&risl=&pid=ImgRaw&r=0);
+        }
+
+        h1 {
+            text-align: center;
+            color:rgb(8, 7, 7);
+        }
+
+        .payment-options {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px 0;
+            color: black;
+        }
+
+        .payment-option {
+            text-align: center;
+            padding: 10px;
+            border: 3px solid #195f05;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 200px;
+            background-color:rgba(75, 28, 28, 0.455);
+            color: black;
+        }
+
+        .payment-option:hover {
+            background-color: #371b12c8;
+            display: inline-block;
+        }
+        p{
+            color:rgb(14, 13, 13);
+        }
+
+        .payment-form {
+            max-width: 400px;
+            margin: 0 auto;
+            width: 150px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            color: #faf8f8;
+            left: 200%;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            color: #187bb4;
+            left: -105px;
+            position:relative;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="password"],
+        .form-group input[type="email"] {
+            width: 320%;
+            padding: 10px;
+            font-size: 20px;
+            border-radius: 50px;
+            border-color: #187bb4;
+            background-color: #ffffff8f;
+            left: -105px;
+            position:relative;
+            
+        }
+
+         .sss {
+            padding: 17px 40px;
+            font-size: 16px;
+            background-color: #187bb4;
+            color: #fffefe;
+            border: none;
+            cursor: pointer;
+            border-radius: 60px;
+            height: 5ch;
+            width:100%;
+            right: -32%;
+            position: relative;
+            bottom: 10px;
+        }
+        .vvv{
+            position:relative;
+            right:-50px;
+            width: 98px;
+        }
+        .vsv{
+            border: 1px solid #478fc2;
+            border-radius: 50px;
+            width: 180px;
+        }
+        .php{
+            position: relative;
+            display:inline-block;
+            padding: 50px;
+            right: 30%;
+        }
+        h5{
+            top: 50%;
+            color: rgb(14, 133, 20);
+        }
+        H4{
+
+            color: rgb(2, 6, 2);
+        }
+
+
+                /* CSS styles go here */
+        /* Customize the styles to match the official Google Pay design */
+
+        body {
+            font-family: Arial, -serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .payment-container {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .payment-logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .payment-logo img {
+            width: 200px;
+        }
+
+        .form-group1 {
+            margin-bottom: 20px;
+        }
+
+        .form-group1 label {
+            display: block;
+            font-weight: bold;
+            color:rgb(72, 167, 174);
+            
+        }
+
+        .form-group1 input[type="text"],
+        .form-group1 input[type="password"],
+        .form-group1 input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            color:rgb(46, 44, 44);
+            background-color: #fffdfd84;
+            border-radius: 50px;
+            border-color: #232525;
+        }
+
+        .bbb{
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #5f9ea0;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            position: relative;
+            bottom: 10px;;
+        }  
+
+
+
+
+        
+        .container3 {
+      display: flex;
+      position: relative;
+      max-width: 65%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #4e060658;
+      border-radius: 6px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.063);
+      height: 500px;
+      display:inline-block;
+      left:38%;
+    }
+
+    .form-section {
+      flex: 1;
+      padding-right: 40px;
+    }
+
+    .form-group2 {
+      margin-bottom: 30px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #ffffff;
+    }
+
+    input[type="text"], input[type="number"] {
+      width: 100%;
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid #4f1313;
+      background-color: #fffafa89;
+    }
+
+    select {
+      width: 100%;
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid #e0e3e7;
+      color: #000000;
+    }
+
+    .card-number-group {
+      display: flex;
+      width:100%;
+    }
+
+    .card-number-group input {
+      flex: 1;
+      margin-bottom: 5px;
+    }
+
+    .cvv-group input {
+      width: calc(30% - 5px);
+      margin-right: 5px;
+    }
+
+    .cvv-group input:last-child {
+      margin-right: 0;
+    }
+
+    button {
+      padding: 1% 4%;
+      background-color: #0f3779;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      border-width: 20px;
+      width: 56%;
+      position:relative;
+      bottom:5ch;
+      left:24%;
+      height: 20%;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+    h2{
+      color: #4566a0;
+    }
+    p{
+      color:#061307;
+    }
+    em{
+      color: #122f62;
+    }
+    input[type="submit"]:hover {
+    background-color: #1f9fb8;
+  }
+  .lix{
+    padding: 1% 4%;
+      background-color: #0f3779;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      border-width: 20px;
+      width: 56%;
+      position:relative;
+      bottom:-7ch;
+      left:28%;
+      height: 40%;
+  }
+    </style>
+</head>
+<body>
+  <meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+      <img src="https://th.bing.com/th/id/R.c68686e2ed1ab95ff433809b2245cdda?rik=a5kn9n4Ey%2fZbdw&pid=ImgRaw&r=0" width="45"><h5>Your information is secured</h5>
+
+    <div class="payment-options">
+        <div class="payment-option" onclick="selectPaymentMethod('paypal')">
+            <img src="https://logodownload.org/wp-content/uploads/2014/10/paypal-logo-0.png" alt="PayPal Logo" width="100">
+            <p>PayPal</p>
+        </div>
+        <div class="payment-option" onclick="selectPaymentMethod('creditCard')">
+            <img src="https://th.bing.com/th/id/R.3199df0e6d1daa6b20a55c39e60096d8?rik=DBXdYJQdMKduwA&pid=ImgRaw&r=0" width="50" >
+            <img src="https://th.bing.com/th/id/R.56ceb6903ab489b3927f849e32bf6723?rik=MyiF2LbrF%2bx0cg&pid=ImgRaw&r=0" width="50"><img src="https://th.bing.com/th/id/R.4d1a33c601c7ff544bf5e174a962a386?rik=HrW1t3N6yFmxUw&pid=ImgRaw&r=0" width="50"><img src="https://th.bing.com/th/id/R.cd8020e39c3e3ea25d8b113140aa7fe0?rik=T%2fvORCOxnpGDeA&pid=ImgRaw&r=0" width="50" alt="Credit Card Logo" width="50">
+            <p>Credit Card</p>
+        </div>
+        <div class="payment-option" onclick="selectPaymentMethod('googlePay')">
+            <img src="https://th.bing.com/th/id/R.4073758a36795381adfc503923dcbe43?rik=ZJZhorsMIQ1bWw&pid=ImgRaw&r=0" alt="Google Pay Logo" width="100">
+            <p>Google Pay</p>
+        </div>
+    </div>
+
+    <div id="paypalForm" style="display: none;">
+        <!-- PayPal payment form goes here -->
+        <div class="payment-form">
+            <form class="php" action="" method="post">
+                <div class="form-group">
+                    <img class="vvv" src="https://logodownload.org/wp-content/uploads/2014/10/paypal-logo-0.png" width="100">
+                    <label for="firstName">Username:</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+    
+                
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div> 
+
+            
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+    
+                
+    
+                <button class="sss" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="creditCardForm" style="display: none;">
+        <!-- Credit card payment form goes here -->
+
+                <div class="container3">
+                    <div class="form-section">
+                    <h2>Credit Card Information</h2>
+                    <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <form action="" method="POST">
+                    <div class="form-group2"><label for="card-number">Card Number</label></div>
+                    <form action="" method="POST"><label for="card_number">Card Number:</label><input id="card_number" name="card_number" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}" required="" title="Please enter a valid card number" type="text" /> <label for="expiry_date">Expiry Date (MM/YY):</label> <input id="expiry_date" name="expiry_date" pattern="[0-9]{2}\/[0-9]{2}" required="" title="Please enter the expiry date in MM/YY format" type="text" /> <label for="cvv">CVV:</label> <input id="cvv" name="cvv" required="" type="text" /> <strong>Visa<input checked="checked" id="visa" name="card_type" type="radio" value="visa" /></strong><strong> </strong><label for="visa"><img alt="" src="https://th.bing.com/th/id/R.8176c0cee9cd559be1a9bf4748abb31f?rik=BSefbnCLRK5K4w&pid=ImgRaw&r=0" style="width: 64px; height: 24px;" /></label><br />
+                      <strong>Debit</strong><input id="debit" name="card_type" type="radio" value="debit" /> <label for="visa"><img alt="" src="https://th.bing.com/th/id/R.3199df0e6d1daa6b20a55c39e60096d8?rik=DBXdYJQdMKduwA&amp;pid=ImgRaw&amp;r=0" style="width: 64px; height: 36px;" /></label>
+              
+                      <input class="lix" type="submit" value="Submit" />&nbsp;</p>
+                      </form>
+                      </form>
+                      </div>
+                    </div>
+                    
+                    
+                     
+    </div>
+
+    <div id="googlePayForm" style="display: none;">
+        <!-- Google Pay payment form goes here -->
+        <div class="payment-container">
+            <div class="payment-logo">
+                <img src="https://th.bing.com/th/id/R.4073758a36795381adfc503923dcbe43?rik=ZJZhorsMIQ1bWw&pid=ImgRaw&r=0" alt="Google Pay Logo">
+            </div>
+    
+            <form action="" method="post">
+                
+    
+    
+                <div class="form-group1">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+    
+                <div class="form-group1">
+                    <label for="password">Password:</label>
+                    <input type="Password" id="password" name="password" required>
+                </div>
+    
+                <div class="form-group1">
+                    <label for="amount">Amount:</label>
+                    <input type="text" id="amount" name="amount" required>
+                </div>
+    
+                <button class="bbb" type="submit"><img src="https://th.bing.com/th/id/R.8c8c982ecb6aa194ce887e280b098a75?rik=MaUs99tTRnPfDg&pid=ImgRaw&r=0" width="18px">   Pay with Google Pay</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function selectPaymentMethod(paymentMethod) {
+            // Hide all payment forms
+            document.getElementById("paypalForm").style.display = "none";
+            document.getElementById("creditCardForm").style.display = "none";
+            document.getElementById("googlePayForm").style.display = "none";
+
+            // Show the selected payment form
+            document.getElementById(paymentMethod + "Form").style.display = "block";
+        }
+        const cardNumberInput = document.getElementById('card-number');
+    const cardExpiryInput = document.getElementById('card-expiry');
+    const cardCvvInput = document.getElementById('card-cvv');
+
+    cardNumberInput.addEventListener('input', formatCardNumber);
+    cardExpiryInput.addEventListener('input', formatExpiryDate);
+    cardCvvInput.addEventListener('input', formatCvv);
+
+    function formatCardNumber() {
+      let cardNumber = cardNumberInput.value.replace(/\s/g, '');
+      cardNumber = cardNumber.replace(/[^\d]/g, '');
+      let formattedNumber = '';
+
+      if (cardNumber.length > 16) {
+          cardNumber = cardNumber.slice(0, 16);
+        }
+
+      for (let i = 0; i < cardNumber.length; i++) {
+        if (i > 0 && i % 4 === 0) {
+          formattedNumber += ' ';
+        }
+        formattedNumber += cardNumber[i];
+      }
+
+      cardNumberInput.value = formattedNumber.trim();
+    }
+
+    function formatExpiryDate() {
+      let expiryDate = cardExpiryInput.value.replace(/\s/g, '');
+      expiryDate = expiryDate.replace(/[^\d]/g, '');
+      let formattedDate = '';
+
+      for (let i = 0; i < expiryDate.length; i++) {
+        if (i === 2) {
+          formattedDate += '/';
+        }
+        formattedDate += expiryDate[i];
+      }
+
+      cardExpiryInput.value = formattedDate.trim();
+    }
+
+    function formatCvv() {
+      let cvv = cardCvvInput.value.replace(/[^\d]/g, '');
+
+      if (cardNumberInput.value.startsWith('4')) {
+        cvv = cvv.slice(0, 3);
+      } else {
+        cvv = cvv.slice(0, 4);
+      }
+
+      cardCvvInput.value = cvv;
+    }
+    function updateCardLogo(cardNumber) {
+      let cardLogo = '';
+
+      if (cardNumber.startsWith('4')) {
+        cardLogo = 'https://th.bing.com/th/id/R.23382e45efbe21479426c2f7987bec71?rik=7tpa1igTRkT4lw&pid=ImgRaw&r=0';
+      } else if (cardNumber.startsWith('5')) {
+        cardLogo = 'https://th.bing.com/th/id/R.3199df0e6d1daa6b20a55c39e60096d8?rik=DBXdYJQdMKduwA&pid=ImgRaw&r=0';
+      } else if (cardNumber.startsWith('6')) {
+        cardLogo = 'https://th.bing.com/th/id/R.e6119b88ef650d493e2ca94fb7e4bec4?rik=74j0E8GSid0LUg&pid=ImgRaw&r=0';
+      } else if (cardNumber.startsWith('34')) {
+        cardLogo = 'https://th.bing.com/th/id/R.759a4f4627d9dbfb40e1da9611d99a7b?rik=cN0xA38k5jc4hA&pid=ImgRaw&r=0';
+      } else {
+        cardLogo = 'https://th.bing.com/th/id/R.31eeac4accea0dcbee2813cd49cf3969?rik=rYpW%2bnTGACTjNw&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_48300.png&ehk=YHn4ePIVbSctgtzXVAw2UyRN8K%2bsLqpgbaeOVmzwkMg%3d&risl=&pid=ImgRaw&r=0';
+      }
+
+      cardLogoImg.src = cardLogo;
+    }
+   
+    </script>
+</body>
+</html>
